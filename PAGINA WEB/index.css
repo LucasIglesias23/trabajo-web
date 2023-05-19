@@ -1,0 +1,114 @@
+html {
+    background-image: url(istockphoto-1226049216-612x612.jpg);
+}
+body {
+    margin: 0%;
+}
+/*HEADER*/
+header {
+    background-image: url(maxresdefault-1210x423.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+/*index*/
+#cannabis {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    padding: 20px;
+}
+#cannabis h2,h3 {
+    font-size: 30px;
+}
+#cannabis p {
+    font-size: 20px;
+}
+
+/*Tipos*/
+.seccion-tipos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    padding: 20px;
+}
+.seccion-tipos h1 {
+    font-size: 40px;
+}
+.container-genetica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.container-genetica h2 {
+    font-size: 30px;
+}
+.container-genetica img {
+    width: 400px;
+}
+.container-genetica p {
+    font-size: 20px;
+}
+
+/*mercado*/
+.mercado {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.mercado h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.mercado-genetica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tabla-genetica, tr, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    height: 20px;
+}
+.tabla-genetica th {
+    background-color: rgba(216, 215, 158, 0.986);
+}
