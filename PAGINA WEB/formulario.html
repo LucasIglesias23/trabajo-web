@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">CANNABIS🌱</p>
+            <img id="abrir-menu" src="IMG/hamburguesa.jpg" alt="" height="50px">
+            <nav class="nav-list">
+                <a href="#Cannabis">QUE ES EL CANNABIS🔍</a>
+                <a href="#tipos">TIPOS🍁</a>
+                <a href="#mercado">MERCADO🛕</a>
+                <a href="tabla.html">CARRITO🛒</a>
+                <a href="formulario.html">FORMULARIO📝</a>
+            </nav>
+        </div>
+    </header>
+
+    <form id="form">         <!--Formulario de inicio de sesión-->
+        <input class="casilla" type="text" name="usuario" value="" placeholder="Nombre de usuario">
+        <input class="casilla" type="password" name="contraseña" value="" placeholder="Contraseña">
+        <div>
+        </div>
+        <div class="captcha">    <!--captcha-->
+            <div>
+                <input id="ingcaptcha"  type="text" value="" placeholder="Ingrese número en pantalla"/>
+            </div>
+            <div id="numcaptcha">
+
+            </div>
+            <button id="refreshnum">Refrescar</button>
+        </div>
+            <button id="btn-iniciar">Iniciar Sesión</button>
+            <p id="aviso"></p>
+    </form>
+<script src="form.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
